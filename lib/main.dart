@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:total_x_machin_task/view/screen_home.dart';
 import 'package:total_x_machin_task/view/screen_mobile_authentication.dart';
 import 'package:total_x_machin_task/view/screen_otp_verification.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ScreenOtpVarification(),
+      home: ScreenHome(),
     );
   }
 }

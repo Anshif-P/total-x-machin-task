@@ -4,6 +4,7 @@ import 'package:total_x_machin_task/util/validation/form_validation.dart';
 import 'package:total_x_machin_task/widgets/comman/buttom_widget.dart';
 import 'package:total_x_machin_task/widgets/comman/text_feild_widget.dart';
 
+// ignore: must_be_immutable
 class ScreenNumberAuthenticaion extends StatelessWidget {
   final TextEditingController numberController = TextEditingController();
   final GlobalKey<FormState> numberAuthFormKey = GlobalKey<FormState>();
